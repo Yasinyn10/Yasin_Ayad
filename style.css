@@ -72,8 +72,19 @@ header h2{
     border: 1px solid;
 }
 .about_me{
-    background-color: #262627;
+    background-color: #141414;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:28px 12%;
+    transition: all .50s ease;
+
 }
 .about_me h3{
     padding: 10px;
+    position: absolute;
 }
