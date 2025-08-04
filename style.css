@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --bg--color:#222327;
+    --text-color:#fff;
+    --main-color:#0a36e6;
+    --main-color2:#aabbff;
+}
+
+
+body{
+    min-height: 100vh;
+    background-color: var(--bg--color);
+    color: var(--text-color);
+}
+header{
+    background-color: #141414;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:28px 12%;
+    transition: all .50s ease;
+}
+header h2{
+    color:var(--main-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+} 
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+.navbar a:hover{
+    color:var(--main-color2);
+    padding-right: 2px;
+    text-shadow: 2px -1px #0a36e660;
+}
+#about{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+.class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.class iframe{
+    color: #39393a;
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    border: 1px solid;
+}
+.about_me{
+    background-color: #262627;
+}
+.about_me h3{
+    padding: 10px;
+}
